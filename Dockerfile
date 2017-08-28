@@ -22,7 +22,8 @@ RUN set -ex \
     iperf \
     nmap \
     conntrack-tools \
-    socat
+    socat \
+    jq
 # apparmor issue #14140
 RUN mv /usr/sbin/tcpdump /usr/bin/tcpdump
 
